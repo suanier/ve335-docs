@@ -370,11 +370,13 @@ http://app-rpro3.visbody.com/appAuth/menuCallBack
 | phone                | 否   | string | 手机                                     |
 | sex                  | 否   | string | f 女，m 　男                             |
 | height               | 否   | int    | 身高                                     |
+| project              | 是   | object | 本次测量项目                                     |
 | action_status        | 是   | object | 状态信息                                 |
 | girth_status         | 否   | int    | 体围的合成状态，０失败，１成功，２超时   |
 | eval_status          | 否   | int    | 体态的合成状态，０失败，１成功，２超时   |
 | bia_status           | 否   | int    | 体成分的合成状态，０失败，１成功，２超时 |
 | eval_shoulder_status | 否   | int    | 肩部的合成状态，０失败，１成功，２超时   |
+| vertebra_status      | 否   | int    | 脊柱侧弯的合成状态，０失败，１成功，２超时   |
 | token                | 是   | string | 第三方接口凭证                           |
 
 **格式如下**
@@ -388,11 +390,13 @@ http://app-rpro3.visbody.com/appAuth/menuCallBack
     "phone": "13812345678",
     "sex": "f"
   },
+  "project":["eval_status","bia_status","girth_status","eval_shoulder_status","vertebra_status"],
   "action_status":{
     "eval_status": 0,
     "bia_status": 0,
     "girth_status": 0,
-    "eval_shoulder_status": 0
+    "eval_shoulder_status": 0,
+	"vertebra_status":0
   },
   "device_id": "20041910080001",
   "scan_id": "20041910080001-a210136e-1bfb-11ea-b711-00d861a9ecd9",
