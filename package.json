@@ -16,10 +16,10 @@
     "cachePath": "yuque.json",
     "mdNameFormat": "title",
     "adapter": "markdown",
-    "concurrency": 5,
+    "concurrency": 50,
     "baseUrl": "https://visbodydev.yuque.com/api/v2",
     "login": "co9793",
-    "repo": "cy2005",
+    "repo": "co9793",
     "onlyPublished": true,
     "onlyPublic": false
   }
