@@ -1,7 +1,7 @@
 {
   "name": "vr-pro3-docs",
   "version": "1.0.0",
-  "description": "vr-pro3 第三方api对接文档",
+  "description": "ve335 第三方api对接文档",
   "main": "index.js",
   "scripts": {
     "start": "yuque-hexo clean && yuque-hexo sync"
