@@ -1170,7 +1170,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 | analysis       | string | 结论分析 若所有项均正常则返回空字符串                       |
 | advice         | string | 结论建议 若所有项均正常则返回空字符串                       |
 
-#### 3.4.6 获取脊柱侧弯文件（ve335 接口）
+#### 3.4.6 获取脊柱侧弯文件
 
 **接口描述：**
 
@@ -1203,7 +1203,7 @@ $headers[]  =  "Authorization: Bearer ". $vfToken;
 }
 ```
 
-#### 3.4.7 获取脊柱侧弯数据及结论（ve335 接口）
+#### 3.4.7 获取脊柱侧弯数据及结论
 
 **接口描述：**
 
